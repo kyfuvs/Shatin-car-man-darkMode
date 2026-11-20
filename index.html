@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>車公靈簽及AI解簽 — 沙田車公廟九十六靈簽</title>
+    <meta name="description" content="沙田車公廟九十六支傳統靈簽求簽、簽文查閱與 Gemini AI 個人化問事解簽應用程式。" />
+    <meta property="og:title" content="車公靈簽及AI解簽 — 沙田車公廟九十六靈簽" />
+    <meta property="og:description" content="沙田車公廟九十六支傳統靈簽求簽、簽文查閱與 Gemini AI 個人化問事解簽應用程式。" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function() {
+        try {
+          const stored = localStorage.getItem('che_kung_theme_mode_v1');
+          const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAF8F5] dark:bg-[#12100E] text-[#1F2937] dark:text-[#F3EFE8] antialiased selection:bg-[#991B1B]/15 selection:text-[#991B1B] dark:selection:bg-[#EF4444]/25 dark:selection:text-[#FCA5A5] transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

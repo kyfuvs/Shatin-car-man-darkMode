@@ -1,0 +1,6 @@
+{
+  "name": "車公靈簽及AI解簽",
+  "description": "沙田車公廟九十六支傳統靈簽求簽、簽文查閱與 Gemini AI 個人化問事解簽應用程式。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
